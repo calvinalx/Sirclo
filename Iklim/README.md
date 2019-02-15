@@ -6,4 +6,4 @@ To run this application locally
 
  Then open your web browser and access
 
- https://localhost:3000
+ http://localhost:3000
