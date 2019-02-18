@@ -1,9 +1,17 @@
 # Iklim
 
+You can also access this project at the following link:
+
+https://iklim.calvin.website
+
 To run this application locally
 
- `npm run dev`
+`npm install`
 
- Then open your web browser and access
+Install all the required dependencies before running the app. 
 
- http://localhost:3000
+`npm run dev`
+
+Then open your web browser and access
+
+http://localhost:3000

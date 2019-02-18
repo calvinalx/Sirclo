@@ -20,7 +20,7 @@ class Index extends Component {
   getWeatherData(event) {
     this.setState({selectedCity: event.target.value})
 
-    axios.get('http://api.openweathermap.org/data/2.5/forecast?&q=' + event.target.value + '&mode=json&units=metric&cnt=5&appid=0459756fead5701bf858c244593f1a7b')
+    axios.get('https://api.openweathermap.org/data/2.5/forecast?&q=' + event.target.value + '&mode=json&units=metric&cnt=5&appid=0459756fead5701bf858c244593f1a7b')
       .then(result => this.setState({
         data: result.data,
         loading: false

@@ -42,7 +42,7 @@ class Table extends Component {
                     <tr key={data.dt}>
                       <td>{formatDate(data.dt)}</td>
                       <td>{data.main.temp}</td>
-                      <td>{Math.round(data.main.temp_max - data.main.temp_min)}</td>
+                      <td>{(data.main.temp_max - data.main.temp_min).toFixed(2)}</td>
                     </tr>
                   )
                 })}
