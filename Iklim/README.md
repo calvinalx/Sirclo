@@ -2,7 +2,7 @@
 
 You can also access this project at the following link:
 
-https://iklim.calvin.website
+https://iklim.netlify.com/
 
 To run this application locally
 
